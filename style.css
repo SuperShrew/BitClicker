@@ -1,0 +1,9 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+#upgradeUpgrades {
+  position: absolute;
+  left: 250px;
+  top: 0px;
+}
