@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script>alert("click the computer to start");</script>
+  <script src="script.js"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div id="ClickDetect" onclick="addScore(1)">
+    <img src="code.gif" height=200px width=200px>
+  </div>
+  <div id="upgradeUpgrades">
+    <button id="upUpgrade1" onclick="upUpgrade1()">
+      <p>better CPU</p>
+      <p>script production x2</p>
+      <p>cost: 100 bits</p>
+    </button>
+  </div>
+  <p id="scoreVal">bits: 0</p>
+  <div id="upgrades">
+    <button id="upgrade1" onclick="upgrade1()">
+      <p>script</p>
+      <img src="0111_javascript.jpg" height=50px width=50px>
+      <p id="cost1">cost: 15 bits</p>
+      <p id="bps1">+0.1 bits per second</p>
+      <p>amount: <span id="amount1">0</span></p>
+    </button>
+    <button id="upgrade2" onclick="upgrade2()">
+      <p>coder</p>
+      <img src="coder.gif" height=50px width=50px>
+      <p id="cost2">cost: 100 bits</p>
+      <p/>+1 bits per second</p>
+      <p>amount: <span id="amount2">0</span></p>
+    </button>
+  </div>
+</body>
+
+</html>
